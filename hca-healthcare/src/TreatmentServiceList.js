@@ -5,6 +5,7 @@ const TreatmentServiceList = () => {
     const [terms, setTerms] = useState([]);
     const [filteredTerms, setFilteredTerms] = useState({});
     const [selectedLetters, setSelectedLetters] = useState([]);
+    console.log(filteredTerms)
 
     useEffect(() => {
         fetch('./data.json')
