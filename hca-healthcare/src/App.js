@@ -3,6 +3,7 @@ import TreatmentServiceList from './TreatmentServiceList';
 import './App.css';
 
 function App() {
+  console.log('in App')
   return (
     <div className="App">
       <header className="App-header">
